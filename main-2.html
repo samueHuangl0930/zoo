@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-2.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>首頁</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+        <div
+        class="d-flex flex-column flex-md-col align-items-center p-3 px-md-4 border-bottom shadow-sm justify-content-center"
+        id="top"
+        >
+        <div class="row  col-md-9 d-flex align-items-center justify-content-center"  id="title">
+            <div class="col-xs-10"><h1 class="text-center">動物管理系統</h1></div>
+        </div>
+        <div class="py-2 col-7 d-flex align-items-center" id="navbar">
+            <button type="button" class="btn btn-primary active m-3" data-bs-toggle="button" autocomplete="off" aria-pressed="true">首頁</button>
+            <button type="button" class="btn btn-primary active m-3" data-bs-toggle="button" autocomplete="off" aria-pressed="true">場區</button>
+        </div>
+        </div>
+    
+    <div class="middle">
+        <div class="middle_content">
+            <div class="searchbar">
+                <div class="s1">
+                    <img src="../animal_img/magnifier.png" alt="logo" height="25px">
+                    <span>查詢</span>
+                </div>
+                <div class="s2">
+                    <input list="animals" name="whatanimal" placeholder="查詢門科類：脊索動物門">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s3">
+                    <input list="animals" name="whatanimal" placeholder="物種類：黑熊">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s4">
+                    <input list="animals" name="whatanimal" placeholder="編號：A00000">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s5">
+                    <input type="button" class="btn btn-warning" value="搜尋">
+                </div>
+            </div>
+            <div class="main_content row d-flex justify-content-around align-items-around">
+                <div class="col-xs-4 col-sm-5  col-md-3 d-flex flex-column m-1"id="s">
+                    <a href="animal_file.html" >
+                        <div class="animalbigbox_up col-12 align-items-center justify-content-center" id="picture">
+                            <img class="bd-placeholder-img"  src="img/panda.jpg" >
+                        </div>
+                        <div class="animalbigbox_down col-12 " id="bottom">
+                            <ul>
+                                <h1>黑熊</h1>
+                                <li><h2>編號：A01001</h2></li>
+                                <li><h2>所在地:台灣動物區(A)</h2></li>
+                            </ul>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-5  col-md-3 d-flex flex-column m-1"id="s">
+                    <a href="animal_file.html" >
+                        <div class="animalbigbox_up col-12 align-items-center justify-content-center" id="picture">
+                            <img class="bd-placeholder-img"  src="img/panda.jpg" >
+                        </div>
+                        <div class="animalbigbox_down col-12 " id="bottom">
+                            <ul>
+                                <h1>黑熊</h1>
+                                <li><h2>編號：A01001</h2></li>
+                                <li><h2>所在地:台灣動物區(A)</h2></li>
+                            </ul>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-5  col-md-3 d-flex flex-column m-1"id="s">
+                    <a href="animal_file.html" >
+                        <div class="animalbigbox_up col-12 align-items-center justify-content-center" id="picture">
+                            <img class="bd-placeholder-img"  src="img/panda.jpg" >
+                        </div>
+                        <div class="animalbigbox_down col-12 " id="bottom">
+                            <ul>
+                                <h1>黑熊</h1>
+                                <li><h2>編號：A01001</h2></li>
+                                <li><h2>所在地:台灣動物區(A)</h2></li>
+                            </ul>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-5  col-md-3 d-flex flex-column m-1"id="s">
+                    <a href="animal_file.html" >
+                        <div class="animalbigbox_up col-12 align-items-center justify-content-center" id="picture">
+                            <img class="bd-placeholder-img"  src="img/panda.jpg" >
+                        </div>
+                        <div class="animalbigbox_down col-12 " id="bottom">
+                            <ul>
+                                <h1>黑熊</h1>
+                                <li><h2>編號：A01001</h2></li>
+                                <li><h2>所在地:台灣動物區(A)</h2></li>
+                            </ul>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-xs-4 col-sm-5  col-md-3 d-flex flex-column m-1"id="s">
+                    <a href="animal_file.html" >
+                        <div class="animalbigbox_up col-12 align-items-center justify-content-center" id="picture">
+                            <img class="bd-placeholder-img"  src="img/panda.jpg" >
+                        </div>
+                        <div class="animalbigbox_down col-12 " id="bottom">
+                            <ul>
+                                <h1>黑熊</h1>
+                                <li><h2>編號：A01001</h2></li>
+                                <li><h2>所在地:台灣動物區(A)</h2></li>
+                            </ul>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

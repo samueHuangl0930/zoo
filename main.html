@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>首頁</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <div class="header">
+        <div class="header_content">
+            <div class="header_top">
+                <div class="avatar">
+                    <img src="../animal_img/user.png" alt="logo" height="91px">
+                    <span>遊客</span>
+                </div>
+                <div class="title">
+                    <h1>動物管理系統</h1>
+                </div>
+                <div class="login"></div>
+            </div>
+            <div class="bar">
+                <a href="main.html">
+                    <div>首頁</div>
+                </a>
+                <a href="area.html">
+                    <div>場區</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="middle">
+        <div class="middle_content">
+            <div class="searchbar">
+                <div class="s1">
+                    <img src="../animal_img/magnifier.png" alt="logo" height="25px">
+                    <span>查詢</span>
+                </div>
+                <div class="s2">
+                    <input list="animals" name="whatanimal" placeholder="查詢門科類：脊索動物門">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s3">
+                    <input list="animals" name="whatanimal" placeholder="物種類：黑熊">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s4">
+                    <input list="animals" name="whatanimal" placeholder="編號：A00000">
+                    <datalist id="animals">
+                        <option value="貓熊">
+                        <option value="大熊">
+                        <option value="狗熊">
+                        <option value="野熊">
+                        <option value="無尾熊">
+                    </datalist>
+                </div>
+                <div class="s5">
+                    <input type="button" class="btn btn-warning" value="搜尋">
+                </div>
+            </div>
+
+            <div class="main_content">
+                <div class="animalbigbox">
+                    <a href="animal_file.html">
+                        <div class="animalbox">
+                            <div class="animalbox_top">
+                                <img src="animal_img/黑熊.jpg" alt="animal_img">
+                            </div>
+                            <div class="animalbox_down">
+
+                                <div class="species">
+                                    <span><b>黑熊</b></span>
+                                </div>
+                                <div class="id">
+                                    <span>編號：<b>A01001</b></span>
+                                </div>
+                                <div class="nickname">
+                                    <span>暱稱：<b>嘿嘿</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="animal_file.html">
+                        <div class="animalbox">
+                            <div class="animalbox_top">
+                                <img src="../animal_img/黑熊.jpg" alt="animal_img">
+                            </div>
+                            <div class="animalbox_down">
+
+                                <div class="species">
+                                    <span><b>黑熊</b></span>
+                                </div>
+                                <div class="id">
+                                    <span>編號：<b>A01001</b></span>
+                                </div>
+                                <div class="nickname">
+                                    <span>暱稱：<b>嘿嘿</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="animal_file.html">
+                        <div class="animalbox">
+                            <div class="animalbox_top">
+                                <img src="../animal_img/黑熊.jpg" alt="animal_img">
+                            </div>
+                            <div class="animalbox_down">
+
+                                <div class="species">
+                                    <span><b>黑熊</b></span>
+                                </div>
+                                <div class="id">
+                                    <span>編號：<b>A01001</b></span>
+                                </div>
+                                <div class="nickname">
+                                    <span>暱稱：<b>嘿嘿</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="animal_file.html">
+                        <div class="animalbox">
+                            <div class="animalbox_top">
+                                <img src="../animal_img/黑熊.jpg" alt="animal_img">
+                            </div>
+                            <div class="animalbox_down">
+
+                                <div class="species">
+                                    <span><b>黑熊</b></span>
+                                </div>
+                                <div class="id">
+                                    <span>編號：<b>A01001</b></span>
+                                </div>
+                                <div class="nickname">
+                                    <span>暱稱：<b>嘿嘿</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="animalbigbox">
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                </div>
+                <div class="animalbigbox">
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                    <div class="animalbox">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
